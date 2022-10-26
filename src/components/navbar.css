@@ -1,0 +1,25 @@
+.navbar_button{
+    position:relative;
+    font-size: x-large;
+    padding: 1rem;
+    border:none;
+    background-color: white;
+}
+.navbar_parent_div{
+    display: flex;
+    justify-content: space-between;
+    padding:0.5rem;
+    position:relative;
+    border:none;
+    background-color: white;
+}
+.bar{
+    border:none;
+}
+@media (min-width: 768px){
+    .navbar_parent_div{
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+
+}
